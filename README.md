@@ -14,6 +14,7 @@
 Были тестированы Naive Bayes и SVC. По итогам 5-ти кратной кросс-валидации был выбран SVC c roc_auc_score 0.884.
 Для тестирования модели было создано веб-приложение https://checksuipost.000webhostapp.com/ ( Прошу немного подождать или нажаить на кнопку еще раз если ответ сразу не вышел )
 ![alt text](https://github.com/Katalip/dschallenge2.0/blob/master/deploying_model/Output3.png)
+![alt text](https://github.com/Katalip/dschallenge2.0/blob/master/deploying_model/Output4.png)
 
 ## <b>4. Дальнейшие возможные улучшения </b>
 - Использовать модели глубинного обучения
