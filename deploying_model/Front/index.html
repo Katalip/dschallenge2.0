@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Potential suicidal accounts predictor</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">    
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+  <!--Custom -->
+  <link href="css/styles.css" rel="stylesheet">  
+    
+    <style>
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #929FBA !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+          <strong>Выявление потенциально суицидальных постов</strong>
+        </a>
+
+        <!-- Collapse -->
+
+        <!-- Links -->
+        </div>
+      </nav>
+    
+    <main>
+        <section id='predictions'>
+            <div class='container'>
+                <p class='lead'> 1 - потенциально суицидальным; 0 - нормальным </p>
+                <div class='row'>
+                    <div class='col-md-6'>
+                    <div class="md-form form-lg">
+                        <input type="text" id="feature1" class="form-control form-control-lg">
+                        <label for="inputLGEx">Текст поста #1</label>
+                    </div>
+                        
+                        <div class="md-form form-lg">
+                        <input type="text" id="feature2" class="form-control form-control-lg">
+                        <label for="inputLGEx">Текст поста #2</label>
+                    </div>
+                        
+                        <div class="md-form form-lg">
+                        <input type="text" id="feature3" class="form-control form-control-lg">
+                        <label for="inputLGEx">Текст поста #3</label>
+                    </div>
+
+                        
+                    <button class='btn btn-success' type='button' id='submit'>Проанализировать</button>
+                        </div><br>
+                    <div class='col-md-6'>
+                        <div class="md-form form-lg">
+                        <label for="inputLGEx" class='result1'></label>
+                        <input type="text"  class="form-control form-control-lg">
+                        </div>
+                        <div class="md-form form-lg">   
+                        <label for="inputLGEx" class='result2'></label>
+                        <input type="text"  class="form-control form-control-lg">
+                        </div>
+                        <div class="md-form form-lg">
+                        <label for="inputLGEx" class='result3'></label>
+                        <input type="text" class="form-control form-control-lg">
+                        </div>
+                        <label for="inputLGEx" class='result4'></label>
+                        <input type="text" class="form-control form-control-lg">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    
+    
+</body>
+    
+ <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>   
+<script type="text/javascript" src="js/main.js"></script>   
+</html>
