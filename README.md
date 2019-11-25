@@ -1,2 +1,3 @@
-# dschallenge2.0
-For Data Science Challenge 2.0
+# For Data Science Challenge 2.0
+### Использование машиного обучения для раннего выявления потенциально суицидальных аккаунтов VK, instagram, базируясь на анализе текста постов
+## <b>Проблема</b>
