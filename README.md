@@ -1,5 +1,5 @@
 # For Data Science Challenge 2.0
-### Using machine learning to identify possible suicidal VK, Instagram posts  ( Абуталип Кудайберген )
+### Using machine learning to identify possible suicidal VK, Instagram posts in russian and kazakh languages
 ## <b>1. Проблема</b>
 - Казахстан занимает первое место по количеству суицидов среди стран Центральной Азии. Огромная доля этих людей - подростки.
 ## <b>1.1 Идея по уменьшению этого числа</b>
